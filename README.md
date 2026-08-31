@@ -1,4 +1,4 @@
-# Ombrage Pro — Site vitrine (exemple)
+# Solari Vitre — Site vitrine (exemple)
 
 Site vitrine multi-pages pour une activité de teintage de vitres résidentielles. HTML/CSS/JS pur, sans build ni dépendance — ouvrez simplement `index.html` dans un navigateur, ou servez le dossier avec un serveur local.
 
@@ -19,6 +19,6 @@ assets/js/main.js      menu mobile, navigation active, animations, formulaire
 
 ## À personnaliser
 
-Tout le contenu (nom "Ombrage Pro", adresse, téléphone, email, horaires, témoignages, équipe) est un exemple à adapter. Les couleurs se changent dans les variables `:root` en haut de `assets/css/style.css`. Le formulaire de contact est front-end uniquement (aucun email n'est réellement envoyé) — il faudra le relier à un service d'envoi (Formspree, backend, etc.) pour le rendre fonctionnel.
+Tout le contenu (adresse, téléphone, email, horaires, témoignages, équipe) est un exemple à adapter. Les couleurs se changent dans les variables `:root` en haut de `assets/css/style.css`. Le formulaire de contact est front-end uniquement (aucun email n'est réellement envoyé) — il faudra le relier à un service d'envoi (Formspree, backend, etc.) pour le rendre fonctionnel.
 
 Dites-moi ce que vous souhaitez modifier (nom de l'entreprise, couleurs, textes, coordonnées...) et j'ajusterai le site.
