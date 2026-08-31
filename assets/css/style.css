@@ -404,6 +404,52 @@ img { max-width: 100%; display: block; }
   margin: 0 auto 16px;
 }
 
+/* Mirror tint day/night info */
+.info-mirror-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 56px;
+  align-items: center;
+}
+.info-mirror-text p:last-child { margin-bottom: 0; }
+.info-mirror-visual { display: flex; gap: 20px; }
+.mirror-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 28px 18px;
+  text-align: center;
+}
+.mirror-panel.dark { background: var(--black-soft); border-color: var(--silver-deep); }
+.mirror-panel-badge {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ice);
+}
+.mirror-eye { color: var(--silver-2); }
+.mirror-panel.dark .mirror-eye { color: var(--ice-soft); }
+.mirror-panel-caption { font-size: 0.82rem; color: var(--grey); margin: 0; }
+
+.service-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--ice);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  color: var(--grey);
+}
+.service-note a { color: var(--silver); font-weight: 600; }
+.service-note a:hover { color: var(--ice-soft); }
+
 /* Benefits */
 .benefits-grid {
   display: grid;
@@ -768,6 +814,8 @@ figcaption {
   .hero-visual { order: -1; }
   .benefits-grid { grid-template-columns: 1fr; }
   .benefits-visual { order: 2; }
+  .info-mirror-grid { grid-template-columns: 1fr; }
+  .info-mirror-visual { order: -1; }
 }
 
 @media (max-width: 720px) {
@@ -804,4 +852,5 @@ figcaption {
   .contact-grid { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
   .trust-grid { justify-content: flex-start; }
+  .info-mirror-visual { flex-direction: column; }
 }
