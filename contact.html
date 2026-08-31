@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Ombrage Pro</title>
+  <meta name="description" content="Demandez votre devis gratuit pour le teintage de vitres résidentielles. Réponse sous 48h.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪟</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><span class="logo-icon">◧</span>Ombrage <span>Pro</span></a>
+      <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="btn btn-primary nav-cta">Devis gratuit</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1>Demandez votre devis gratuit</h1>
+        <p class="section-lead">Répondez à quelques questions, nous revenons vers vous sous 48h avec un devis personnalisé.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2>Nos coordonnées</h2>
+          <ul class="contact-list">
+            <li><span class="contact-icon">📍</span><div><strong>Adresse</strong><p>12 rue des Vitriers, 69000 Lyon</p></div></li>
+            <li><span class="contact-icon">📞</span><div><strong>Téléphone</strong><p><a href="tel:+33123456789">01 23 45 67 89</a></p></div></li>
+            <li><span class="contact-icon">✉️</span><div><strong>Email</strong><p><a href="mailto:contact@ombragepro.fr">contact@ombragepro.fr</a></p></div></li>
+            <li><span class="contact-icon">🕒</span><div><strong>Horaires</strong><p>Lun–Ven : 8h–18h<br>Sam : 9h–13h</p></div></li>
+          </ul>
+          <div class="map-placeholder">
+            <p>🗺️ Emplacement de la carte Google Maps<br><span>(à intégrer avec votre adresse réelle)</span></p>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <h2>Envoyez-nous un message</h2>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Nom complet *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Téléphone *</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="service">Type de service</label>
+              <select id="service" name="service">
+                <option value="">Sélectionnez...</option>
+                <option value="solaire">Film anti-chaleur &amp; UV</option>
+                <option value="confidentialite">Film de confidentialité</option>
+                <option value="securite">Film de sécurité</option>
+                <option value="decoratif">Film décoratif</option>
+                <option value="autre">Autre / Je ne sais pas encore</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Votre projet *</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Décrivez votre projet : nombre de fenêtres, pièces concernées, besoins particuliers..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Envoyer ma demande</button>
+          <p class="form-note" id="form-feedback" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section faq alt">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow">Questions fréquentes</p>
+          <h2>Vous vous posez des questions ?</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item"><summary>Combien coûte le teintage d'une fenêtre ?</summary><p>Le prix dépend du type de film, de la surface à couvrir et du nombre de fenêtres. Nous établissons un devis gratuit et personnalisé après avoir évalué votre projet.</p></details>
+          <details class="faq-item"><summary>Combien de temps dure l'installation ?</summary><p>Pour une maison standard, comptez généralement une demi-journée à une journée complète selon le nombre de fenêtres.</p></details>
+          <details class="faq-item"><summary>Le film abîme-t-il le double vitrage ?</summary><p>Non, nos films sont conçus pour être compatibles avec le double vitrage et posés par des techniciens certifiés.</p></details>
+          <details class="faq-item"><summary>Proposez-vous une garantie ?</summary><p>Oui, tous nos films sont garantis jusqu'à 10 ans selon le type choisi, avec un engagement satisfait ou refait.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="logo">Ombrage Pro</a>
+        <p>Spécialiste du teintage de vitres résidentielles. Confort, protection et esthétique pour votre maison.</p>
+        <div class="socials" aria-hidden="true">
+          <a href="#">f</a><a href="#">in</a><a href="#">ig</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Liens rapides</h4>
+        <ul>
+          <li><a href="services.html">Nos services</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Nos services</h4>
+        <ul>
+          <li>Film anti-chaleur &amp; UV</li>
+          <li>Film de confidentialité</li>
+          <li>Film de sécurité</li>
+          <li>Film décoratif</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>📍 12 rue des Vitriers, 69000 Lyon</li>
+          <li>📞 <a href="tel:+33123456789">01 23 45 67 89</a></li>
+          <li>✉️ <a href="mailto:contact@ombragepro.fr">contact@ombragepro.fr</a></li>
+          <li>🕒 Lun–Ven 8h–18h, Sam 9h–13h</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Ombrage Pro. Tous droits réservés. <span class="footer-note">Site exemple — personnalisable selon vos besoins.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
