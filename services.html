@@ -44,7 +44,18 @@
 
     <section class="section service-detail" id="solaire">
       <div class="container service-detail-grid">
-        <div class="service-visual" aria-hidden="true"><span>☀️</span></div>
+        <div class="service-visual" aria-hidden="true"><svg viewBox="0 0 100 100" width="130" height="130">
+          <defs><linearGradient id="solGlassSvc" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f2ddb0"/><stop offset="100%" stop-color="#c9a35e"/></linearGradient></defs>
+          <circle cx="78" cy="22" r="10" fill="none" stroke="#e8c98a" stroke-width="2.5"/>
+          <g stroke="#e8c98a" stroke-width="2.5" stroke-linecap="round">
+            <line x1="78" y1="4" x2="78" y2="9"/><line x1="78" y1="35" x2="78" y2="40"/>
+            <line x1="60" y1="22" x2="65" y2="22"/><line x1="91" y1="22" x2="96" y2="22"/>
+            <line x1="67" y1="11" x2="70" y2="14"/><line x1="86" y1="30" x2="89" y2="33"/>
+            <line x1="67" y1="33" x2="70" y2="30"/><line x1="86" y1="14" x2="89" y2="11"/>
+          </g>
+          <rect x="14" y="30" width="60" height="60" rx="4" fill="url(#solGlassSvc)" stroke="#8a6f3f" stroke-width="2"/>
+          <line x1="18" y1="82" x2="70" y2="34" stroke="rgba(255,255,255,0.4)" stroke-width="4"/>
+        </svg></div>
         <div class="service-text">
           <h2>Teint Solaire</h2>
           <p>Idéal pour les pièces exposées plein sud, ce teint réduit la chaleur entrante et bloque jusqu'à 99% des rayons UV, tout en laissant passer la lumière naturelle.</p>
@@ -70,13 +81,29 @@
           </ul>
           <p class="service-note">⚠️ L'effet miroir agit uniquement quand l'extérieur est plus lumineux que l'intérieur : actif le jour, il s'inverse le soir dès que vos lumières sont allumées. <a href="index.html#miroir-info">Voir le détail sur l'accueil</a>.</p>
         </div>
-        <div class="service-visual" aria-hidden="true"><span>🪞</span></div>
+        <div class="service-visual" aria-hidden="true"><svg viewBox="0 0 100 100" width="130" height="130">
+          <defs><linearGradient id="mirGlassSvc" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#e4e7ea"/><stop offset="50%" stop-color="#aab0b7"/><stop offset="100%" stop-color="#6b7178"/></linearGradient></defs>
+          <rect x="14" y="14" width="72" height="72" rx="4" fill="url(#mirGlassSvc)" stroke="#6b7178" stroke-width="2"/>
+          <line x1="20" y1="70" x2="70" y2="20" stroke="rgba(255,255,255,0.55)" stroke-width="5"/>
+          <line x1="34" y1="82" x2="82" y2="34" stroke="rgba(255,255,255,0.25)" stroke-width="3"/>
+        </svg></div>
       </div>
     </section>
 
     <section class="section service-detail" id="anti-effraction">
       <div class="container service-detail-grid">
-        <div class="service-visual" aria-hidden="true"><span>🛡️</span></div>
+        <div class="service-visual" aria-hidden="true"><svg viewBox="0 0 100 100" width="130" height="130">
+          <defs><linearGradient id="secGlassSvc" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3a4148"/><stop offset="100%" stop-color="#181c20"/></linearGradient></defs>
+          <rect x="12" y="12" width="76" height="76" rx="4" fill="url(#secGlassSvc)" stroke="#8a949c" stroke-width="3"/>
+          <g stroke="#cbd0d6" stroke-width="1.4" stroke-linecap="round" opacity="0.85">
+            <line x1="50" y1="50" x2="30" y2="22"/><line x1="50" y1="50" x2="72" y2="26"/>
+            <line x1="50" y1="50" x2="78" y2="58"/><line x1="50" y1="50" x2="60" y2="82"/>
+            <line x1="50" y1="50" x2="26" y2="74"/><line x1="50" y1="50" x2="20" y2="46"/>
+            <line x1="38" y1="34" x2="46" y2="42"/><line x1="62" y1="38" x2="55" y2="45"/>
+            <line x1="60" y1="66" x2="54" y2="58"/><line x1="36" y1="62" x2="44" y2="56"/>
+          </g>
+          <circle cx="50" cy="50" r="4" fill="#cbd0d6"/>
+        </svg></div>
         <div class="service-text">
           <h2>Teint Anti-Effraction</h2>
           <p>Ce teint renforce la résistance de vos vitrages : en cas de choc ou de tentative d'effraction, les éclats de verre restent maintenus en place.</p>
@@ -100,7 +127,12 @@
             <li>Pose sur mesure selon vos dimensions</li>
           </ul>
         </div>
-        <div class="service-visual" aria-hidden="true"><span>🌫️</span></div>
+        <div class="service-visual" aria-hidden="true"><svg viewBox="0 0 100 100" width="130" height="130">
+          <defs><pattern id="sableDotsSvc" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#8b9096"/><circle cx="6" cy="6" r="1" fill="#8b9096"/></pattern></defs>
+          <rect x="14" y="14" width="72" height="72" rx="4" fill="#c8cdd2"/>
+          <rect x="14" y="14" width="72" height="72" rx="4" fill="url(#sableDotsSvc)" opacity="0.55"/>
+          <rect x="14" y="14" width="72" height="72" rx="4" fill="none" stroke="#6b7178" stroke-width="2"/>
+        </svg></div>
       </div>
     </section>
 

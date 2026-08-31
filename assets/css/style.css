@@ -437,7 +437,7 @@ img { max-width: 100%; display: block; }
   color: var(--white);
   font-size: 0.92rem;
 }
-.trust-item, .card-icon, .badge-item, .contact-icon, .gallery-placeholder {
+.trust-item, .badge-item, .contact-icon, .gallery-placeholder {
   filter: grayscale(0.4) brightness(1.4) contrast(0.95);
 }
 
@@ -674,8 +674,6 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3.2rem;
-  filter: grayscale(0.4) brightness(1.4) contrast(0.95);
 }
 
 /* Comparison table */
