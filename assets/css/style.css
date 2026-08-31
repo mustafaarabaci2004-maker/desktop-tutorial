@@ -242,6 +242,95 @@ img { max-width: 100%; display: block; }
 .nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
 
 /* ==========================================================================
+   Hero devanture (full-bleed splash)
+   ========================================================================== */
+.hero-devanture {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.hero-scene { position: absolute; inset: 0; z-index: 0; }
+.hero-scene svg { width: 100%; height: 100%; display: block; }
+.hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(10,10,11,0.4) 0%, rgba(10,10,11,0.15) 42%, rgba(10,10,11,0.7) 100%);
+}
+.hero-devanture-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+.hero-pill {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--white);
+  border: 1px solid rgba(245,244,242,0.35);
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: rgba(10,10,11,0.35);
+  backdrop-filter: blur(6px);
+  margin: 0;
+}
+.hero-wordmark {
+  font-family: 'Jost', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-size: clamp(3rem, 9vw, 7.5rem);
+  color: var(--white);
+  line-height: 0.95;
+  margin: 0;
+  text-shadow: 0 8px 40px rgba(0,0,0,0.5);
+}
+.hero-wordmark span {
+  display: block;
+  font-size: 0.38em;
+  font-weight: 500;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: var(--ice-soft);
+  margin-top: 0.35em;
+}
+.hero-tagline {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--silver);
+  margin: 0;
+}
+.hero-cta { margin-top: 8px; }
+.hero-scroll {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: var(--grey);
+  font-family: 'Jost', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.hero-scroll i {
+  width: 1px;
+  height: 34px;
+  background: linear-gradient(to bottom, var(--grey), transparent);
+  display: block;
+}
+
+/* ==========================================================================
    Hero
    ========================================================================== */
 .hero {
@@ -842,6 +931,8 @@ figcaption {
     margin: 0 24px 20px;
   }
 
+  .hero-devanture { min-height: 92vh; }
+  .hero-scroll { margin-top: 28px; }
   .section { padding: 56px 0; }
   .service-detail-grid,
   .service-detail-grid.reverse { grid-template-columns: 1fr; }
