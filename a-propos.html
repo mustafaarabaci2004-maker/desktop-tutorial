@@ -3,149 +3,205 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>À propos | Solari Vitre</title>
-  <meta name="description" content="Découvrez l'histoire, les valeurs et l'équipe de Solari Vitre, spécialiste du teintage de vitres résidentielles.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪟</text></svg>">
+  <title>À propos | M&amp;T Clean</title>
+  <meta name="description" content="M&amp;T Clean, entreprise familiale de nettoyage active en Belgique depuis plus de 15 ans. Notre histoire, nos valeurs et notre équipe.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧼</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <a href="#main" class="skip-link">Aller au contenu principal</a>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="index.html" class="logo"><span class="logo-icon" aria-hidden="true"><svg viewBox="0 0 64 64" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M8 16 L26 8 L26 56 L8 48 Z"/><rect x="33" y="13" width="6" height="38" fill="currentColor" stroke="none"/><rect x="44" y="9" width="6" height="46" fill="currentColor" stroke="none"/></svg></span><span class="logo-word">SOLARI<em>VITRE</em></span></a>
-      <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="galerie.html">Galerie</a></li>
-          <li><a href="a-propos.html">À propos</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <a href="contact.html" class="btn btn-primary nav-cta">Devis gratuit</a>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
-        <span></span><span></span><span></span>
-      </button>
+  <header class="navbar_component">
+    <div class="padding-global">
+      <div class="container-large">
+        <div class="navbar_container">
+          <a href="index.html" class="navbar_logo-link">
+            <span class="navbar_logo-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3.2v4.6c0 4.7-3 8.6-7 10.2-4-1.6-7-5.5-7-10.2V6.2z"/><path d="M9 12.2l2 2 4-4.4"/></svg></span>
+            <span class="navbar_logo-word">M&amp;T<em>Clean</em></span>
+          </a>
+          <nav class="navbar_menu" aria-label="Navigation principale">
+            <a href="index.html" class="navbar_link">Accueil</a>
+            <a href="services.html" class="navbar_link">Services</a>
+            <a href="realisations.html" class="navbar_link">Réalisations</a>
+            <a href="a-propos.html" class="navbar_link">À propos</a>
+            <a href="contact.html" class="navbar_link">Contact</a>
+          </nav>
+          <div class="navbar_button-wrapper">
+            <a href="tel:+3221234567" class="navbar_phone"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h3l2 5-2.5 1.5a12 12 0 006 6L16 13l5 2v3a2 2 0 01-2 2C10.5 20 4 13.5 4 5a2 2 0 012-2z"/></svg> +32 2 123 45 67</a>
+            <a href="contact.html" class="button is-primary is-small">Devis gratuit</a>
+            <button class="menu-button" id="menu-button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navbar-menu">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main id="main">
-    <section class="page-hero">
-      <div class="container">
-        <p class="eyebrow">À propos</p>
-        <h1>L'expertise du teintage au service de votre confort</h1>
-        <p class="section-lead">Depuis nos débuts, Solari Vitre accompagne les particuliers dans l'amélioration du confort et de la protection de leur maison.</p>
-      </div>
-    </section>
-
-    <section class="section about-story">
-      <div class="container service-detail-grid">
-        <div class="service-text">
-          <h2>Notre histoire</h2>
-          <p>Solari Vitre est né d'un constat simple : trop de foyers subissent la chaleur estivale, le manque d'intimité ou des vitrages fragiles, sans connaître les solutions existantes. Nous avons fait du teintage de vitres résidentielles notre spécialité, avec une exigence constante de qualité et de service.</p>
-          <p>Aujourd'hui, notre équipe de techniciens certifiés accompagne chaque année des centaines de foyers dans le choix et la pose de films adaptés à leurs besoins.</p>
-        </div>
-        <div class="service-visual" aria-hidden="true"><span>🏠</span></div>
-      </div>
-    </section>
-
-    <section class="section values alt">
-      <div class="container">
-        <div class="section-head center">
-          <p class="eyebrow">Nos valeurs</p>
-          <h2>Ce qui nous engage</h2>
-        </div>
-        <div class="card-grid">
-          <article class="card"><div class="card-icon">🎯</div><h3>Qualité</h3><p>Des films certifiés et une pose soignée, garanties dans la durée.</p></article>
-          <article class="card"><div class="card-icon">🤝</div><h3>Transparence</h3><p>Des devis clairs, sans frais cachés ni surprise.</p></article>
-          <article class="card"><div class="card-icon">💬</div><h3>Service client</h3><p>Une équipe à l'écoute, avant, pendant et après l'installation.</p></article>
-          <article class="card"><div class="card-icon">🎓</div><h3>Expertise</h3><p>Des techniciens formés et certifiés aux dernières techniques de pose.</p></article>
+  <main id="main" class="page-wrapper">
+    <section class="page-hero_component">
+      <div class="padding-global">
+        <div class="container-large">
+          <p class="eyebrow">À propos</p>
+          <h1>L'entreprise de nettoyage belge qui met la fiabilité au centre</h1>
+          <p>M&amp;T Clean accompagne professionnels et particuliers depuis plus de 15 ans, avec une équipe stable et des méthodes de travail rigoureuses.</p>
         </div>
       </div>
     </section>
 
-    <section class="section team">
-      <div class="container">
-        <div class="section-head center">
-          <p class="eyebrow">L'équipe</p>
-          <h2>Des professionnels certifiés</h2>
-        </div>
-        <div class="card-grid">
-          <article class="card team-card"><div class="avatar">MT</div><h3>Marc T.</h3><p>Fondateur &amp; installateur certifié</p></article>
-          <article class="card team-card"><div class="avatar">SL</div><h3>Sophie L.</h3><p>Responsable relation client</p></article>
-          <article class="card team-card"><div class="avatar">KD</div><h3>Karim D.</h3><p>Technicien poseur certifié</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section guarantees alt">
-      <div class="container">
-        <div class="section-head center">
-          <p class="eyebrow">Garanties</p>
-          <h2>Votre tranquillité, notre priorité</h2>
-        </div>
-        <div class="badges-grid">
-          <div class="badge-item">🛡️<span>Garantie 10 ans sur les films</span></div>
-          <div class="badge-item">✅<span>Satisfait ou refait</span></div>
-          <div class="badge-item">📜<span>Installateurs certifiés</span></div>
-          <div class="badge-item">🧾<span>Devis gratuit et sans engagement</span></div>
+    <section class="padding-section-large">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="service-detail_layout">
+            <div class="service-detail_visual" aria-hidden="true"><svg viewBox="0 0 24 24" width="70" height="70" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3.2v4.6c0 4.7-3 8.6-7 10.2-4-1.6-7-5.5-7-10.2V6.2z"/><path d="M9 12.2l2 2 4-4.4"/></svg></div>
+            <div class="service-detail_text">
+              <p class="eyebrow">Notre histoire</p>
+              <h2>Une entreprise familiale devenue un partenaire de confiance</h2>
+              <p>M&amp;T Clean est née à Bruxelles de la volonté de deux associés d'offrir un service de nettoyage réellement fiable : équipes stables, communication claire et prestations sans surprise. Depuis, l'entreprise s'est développée dans toute la Belgique, tout en gardant un fonctionnement à taille humaine.</p>
+              <p>Aujourd'hui, M&amp;T Clean accompagne des bureaux, commerces, syndics de copropriété, sites industriels et particuliers, avec la même exigence de rigueur et de propreté sur chaque intervention.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="cta-banner">
-      <div class="container cta-inner">
-        <h2>Envie de nous confier votre projet ?</h2>
-        <p>Discutons de vos besoins et recevez un devis gratuit sous 48h.</p>
-        <a href="contact.html" class="btn btn-light">Demander un devis</a>
+    <section class="padding-section-large section_alternate">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="section_head is-center margin-bottom-xlarge align-center">
+            <p class="eyebrow">Nos valeurs</p>
+            <h2>Ce qui guide notre travail au quotidien</h2>
+          </div>
+          <div class="grid-layout is-4-col">
+            <article class="card">
+              <div class="card_icon-wrapper"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3.2v4.6c0 4.7-3 8.6-7 10.2-4-1.6-7-5.5-7-10.2V6.2z"/><path d="M9 12.2l2 2 4-4.4"/></svg></div>
+              <h3>Fiabilité</h3>
+              <p>Nous respectons nos plannings et nos engagements, prestation après prestation.</p>
+            </article>
+            <article class="card">
+              <div class="card_icon-wrapper"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9"/></svg></div>
+              <h3>Rigueur</h3>
+              <p>Chaque intervention suit des procédures précises et un contrôle qualité systématique.</p>
+            </article>
+            <article class="card">
+              <div class="card_icon-wrapper"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c8 1 13-4 14-13-9 0-14 5-14 13z"/><path d="M5 19c2-4 5-7 9-9"/></svg></div>
+              <h3>Respect de l'environnement</h3>
+              <p>Nous privilégions des produits et méthodes éco-responsables dès que possible.</p>
+            </article>
+            <article class="card">
+              <div class="card_icon-wrapper"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h3l2 5-2.5 1.5a12 12 0 006 6L16 13l5 2v3a2 2 0 01-2 2C10.5 20 4 13.5 4 5a2 2 0 012-2z"/></svg></div>
+              <h3>Proximité</h3>
+              <p>Un interlocuteur unique et joignable pour chaque client, pas de standard anonyme.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding-section-large">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="section_head is-center margin-bottom-xlarge align-center">
+            <p class="eyebrow">Notre équipe</p>
+            <h2>Des responsables présents sur le terrain</h2>
+          </div>
+          <div class="grid-layout is-3-col">
+            <div class="card team-card">
+              <div class="team-card_avatar">MT</div>
+              <h3>Mehmet T.</h3>
+              <p class="text-color-grey">Co-fondateur &amp; responsable opérations</p>
+            </div>
+            <div class="card team-card">
+              <div class="team-card_avatar">TL</div>
+              <h3>Tessa L.</h3>
+              <p class="text-color-grey">Co-fondatrice &amp; responsable clients</p>
+            </div>
+            <div class="card team-card">
+              <div class="team-card_avatar">RB</div>
+              <h3>Rachid B.</h3>
+              <p class="text-color-grey">Superviseur qualité terrain</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding-section-medium section_dark">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="grid-layout is-4-col text-align-center">
+            <div><span class="hero_stat-number text-color-white" style="font-size:2rem;">+15</span><p class="text-color-alternate margin-bottom-tiny">Années d'expérience</p></div>
+            <div><span class="hero_stat-number text-color-white" style="font-size:2rem;">+300</span><p class="text-color-alternate margin-bottom-tiny">Clients accompagnés</p></div>
+            <div><span class="hero_stat-number text-color-white" style="font-size:2rem;">98%</span><p class="text-color-alternate margin-bottom-tiny">Clients satisfaits</p></div>
+            <div><span class="hero_stat-number text-color-white" style="font-size:2rem;">8</span><p class="text-color-alternate margin-bottom-tiny">Villes couvertes</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="padding-section-large">
+      <div class="padding-global">
+        <div class="container-medium text-align-center">
+          <p class="eyebrow">Rejoignez nos clients</p>
+          <h2>Envie de collaborer avec M&amp;T Clean ?</h2>
+          <p class="text-size-medium text-color-grey margin-bottom-large">Parlons de vos besoins et recevez un devis gratuit sous 24h.</p>
+          <a href="contact.html" class="button is-primary">Demander un devis</a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-col">
-        <a href="index.html" class="logo">Solari Vitre</a>
-        <p>Spécialiste du teintage de vitres résidentielles. Confort, protection et esthétique pour votre maison.</p>
-        <div class="socials" aria-hidden="true">
-          <a href="#">f</a><a href="#">in</a><a href="#">ig</a>
+  <footer class="footer_component">
+    <div class="padding-global">
+      <div class="container-large">
+        <div class="footer_top-wrapper">
+          <div class="footer_column">
+            <a href="index.html" class="navbar_logo-link">
+              <span class="navbar_logo-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3.2v4.6c0 4.7-3 8.6-7 10.2-4-1.6-7-5.5-7-10.2V6.2z"/><path d="M9 12.2l2 2 4-4.4"/></svg></span>
+              <span class="navbar_logo-word">M&amp;T<em>Clean</em></span>
+            </a>
+            <p class="margin-bottom-small">Entreprise de nettoyage professionnel et résidentiel, active à Bruxelles et dans toute la Belgique.</p>
+            <div class="footer_socials" aria-hidden="true">
+              <a href="#">f</a><a href="#">in</a><a href="#">ig</a>
+            </div>
+          </div>
+          <div class="footer_column">
+            <h4>Liens rapides</h4>
+            <ul>
+              <li><a href="services.html">Nos services</a></li>
+              <li><a href="realisations.html">Réalisations</a></li>
+              <li><a href="a-propos.html">À propos</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer_column">
+            <h4>Nos services</h4>
+            <ul>
+              <li>Nettoyage de bureaux</li>
+              <li>Nettoyage de vitres</li>
+              <li>Copropriétés &amp; communs</li>
+              <li>Fin de chantier</li>
+              <li>Nettoyage industriel</li>
+              <li>Particuliers</li>
+            </ul>
+          </div>
+          <div class="footer_column">
+            <h4>Contact</h4>
+            <ul>
+              <li>📍 Rue de la Loi 123, 1000 Bruxelles</li>
+              <li>📞 <a href="tel:+3221234567">+32 2 123 45 67</a></li>
+              <li>✉️ <a href="mailto:info@mtclean.be">info@mtclean.be</a></li>
+              <li>🕒 Lun–Ven 7h–19h, Sam 8h–12h</li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="footer-col">
-        <h4>Liens rapides</h4>
-        <ul>
-          <li><a href="services.html">Nos services</a></li>
-          <li><a href="galerie.html">Galerie</a></li>
-          <li><a href="a-propos.html">À propos</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Nos services</h4>
-        <ul>
-          <li>Teint Solaire</li>
-          <li>Teint Effet Miroir</li>
-          <li>Teint Anti-Effraction</li>
-          <li>Teint Sablé</li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <ul>
-          <li>📍 12 rue des Vitriers, 69000 Lyon</li>
-          <li>📞 <a href="tel:+33123456789">01 23 45 67 89</a></li>
-          <li>✉️ <a href="mailto:contact@solarivitre.fr">contact@solarivitre.fr</a></li>
-          <li>🕒 Lun–Ven 8h–18h, Sam 9h–13h</li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="container">
-        <p>&copy; 2026 Solari Vitre. Tous droits réservés. <span class="footer-note">Site exemple — personnalisable selon vos besoins.</span></p>
+        <div class="footer_bottom-wrapper">
+          <p>&copy; 2026 M&amp;T Clean SRL. Tous droits réservés. TVA BE 0123.456.789.</p>
+          <p>Site exemple — personnalisable selon vos besoins.</p>
+        </div>
       </div>
     </div>
   </footer>

@@ -3,155 +3,198 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | Solari Vitre</title>
-  <meta name="description" content="Demandez votre devis gratuit pour le teintage de vitres résidentielles. Réponse sous 48h.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪟</text></svg>">
+  <title>Contact | M&amp;T Clean</title>
+  <meta name="description" content="Contactez M&amp;T Clean pour un devis gratuit sous 24h : nettoyage de bureaux, vitres, copropriétés, fin de chantier, industriel ou particuliers en Belgique.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧼</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <a href="#main" class="skip-link">Aller au contenu principal</a>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="index.html" class="logo"><span class="logo-icon" aria-hidden="true"><svg viewBox="0 0 64 64" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M8 16 L26 8 L26 56 L8 48 Z"/><rect x="33" y="13" width="6" height="38" fill="currentColor" stroke="none"/><rect x="44" y="9" width="6" height="46" fill="currentColor" stroke="none"/></svg></span><span class="logo-word">SOLARI<em>VITRE</em></span></a>
-      <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="galerie.html">Galerie</a></li>
-          <li><a href="a-propos.html">À propos</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <a href="contact.html" class="btn btn-primary nav-cta">Devis gratuit</a>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
-        <span></span><span></span><span></span>
-      </button>
+  <header class="navbar_component">
+    <div class="padding-global">
+      <div class="container-large">
+        <div class="navbar_container">
+          <a href="index.html" class="navbar_logo-link">
+            <span class="navbar_logo-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3.2v4.6c0 4.7-3 8.6-7 10.2-4-1.6-7-5.5-7-10.2V6.2z"/><path d="M9 12.2l2 2 4-4.4"/></svg></span>
+            <span class="navbar_logo-word">M&amp;T<em>Clean</em></span>
+          </a>
+          <nav class="navbar_menu" aria-label="Navigation principale">
+            <a href="index.html" class="navbar_link">Accueil</a>
+            <a href="services.html" class="navbar_link">Services</a>
+            <a href="realisations.html" class="navbar_link">Réalisations</a>
+            <a href="a-propos.html" class="navbar_link">À propos</a>
+            <a href="contact.html" class="navbar_link">Contact</a>
+          </nav>
+          <div class="navbar_button-wrapper">
+            <a href="tel:+3221234567" class="navbar_phone"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h3l2 5-2.5 1.5a12 12 0 006 6L16 13l5 2v3a2 2 0 01-2 2C10.5 20 4 13.5 4 5a2 2 0 012-2z"/></svg> +32 2 123 45 67</a>
+            <a href="contact.html" class="button is-primary is-small">Devis gratuit</a>
+            <button class="menu-button" id="menu-button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navbar-menu">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main id="main">
-    <section class="page-hero">
-      <div class="container">
-        <p class="eyebrow">Contact</p>
-        <h1>Demandez votre devis gratuit</h1>
-        <p class="section-lead">Répondez à quelques questions, nous revenons vers vous sous 48h avec un devis personnalisé.</p>
+  <main id="main" class="page-wrapper">
+    <section class="page-hero_component">
+      <div class="padding-global">
+        <div class="container-large">
+          <p class="eyebrow">Contact</p>
+          <h1>Parlons de votre projet de nettoyage</h1>
+          <p>Remplissez le formulaire ou contactez-nous directement : nous revenons vers vous avec un devis gratuit sous 24h.</p>
+        </div>
       </div>
     </section>
 
-    <section class="section contact-section">
-      <div class="container contact-grid">
-        <div class="contact-info">
-          <h2>Nos coordonnées</h2>
-          <ul class="contact-list">
-            <li><span class="contact-icon">📍</span><div><strong>Adresse</strong><p>12 rue des Vitriers, 69000 Lyon</p></div></li>
-            <li><span class="contact-icon">📞</span><div><strong>Téléphone</strong><p><a href="tel:+33123456789">01 23 45 67 89</a></p></div></li>
-            <li><span class="contact-icon">✉️</span><div><strong>Email</strong><p><a href="mailto:contact@solarivitre.fr">contact@solarivitre.fr</a></p></div></li>
-            <li><span class="contact-icon">🕒</span><div><strong>Horaires</strong><p>Lun–Ven : 8h–18h<br>Sam : 9h–13h</p></div></li>
-          </ul>
-          <div class="map-placeholder">
-            <p>🗺️ Emplacement de la carte Google Maps<br><span>(à intégrer avec votre adresse réelle)</span></p>
+    <section class="padding-section-large">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="contact_layout">
+            <div class="contact_info">
+              <ul class="contact-list">
+                <li>
+                  <span class="contact-list_icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-12a7 7 0 10-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.4"/></svg></span>
+                  <span><strong>Adresse</strong><p>Rue de la Loi 123, 1000 Bruxelles, Belgique</p></span>
+                </li>
+                <li>
+                  <span class="contact-list_icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h3l2 5-2.5 1.5a12 12 0 006 6L16 13l5 2v3a2 2 0 01-2 2C10.5 20 4 13.5 4 5a2 2 0 012-2z"/></svg></span>
+                  <span><strong>Téléphone</strong><p><a href="tel:+3221234567">+32 2 123 45 67</a> — <a href="tel:+32470123456">+32 470 12 34 56</a></p></span>
+                </li>
+                <li>
+                  <span class="contact-list_icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 6l8 7 8-7"/></svg></span>
+                  <span><strong>E-mail</strong><p><a href="mailto:info@mtclean.be">info@mtclean.be</a></p></span>
+                </li>
+                <li>
+                  <span class="contact-list_icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3.5 2"/></svg></span>
+                  <span><strong>Horaires</strong><p>Lun–Ven 7h–19h, Sam 8h–12h</p></span>
+                </li>
+              </ul>
+              <div class="map-placeholder">
+                <span>🗺️ Carte à intégrer (Google Maps ou OpenStreetMap)</span>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Nom complet *</label>
+                  <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">E-mail *</label>
+                  <input type="email" id="email" name="email" placeholder="vous@exemple.be" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Téléphone</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+32 4xx xx xx xx">
+                </div>
+                <div class="form-group">
+                  <label for="service">Service souhaité *</label>
+                  <select id="service" name="service" required>
+                    <option value="" disabled selected>Choisissez un service</option>
+                    <option value="bureaux">Nettoyage de bureaux</option>
+                    <option value="vitres">Nettoyage de vitres</option>
+                    <option value="coproprietes">Copropriétés &amp; communs</option>
+                    <option value="chantier">Fin de chantier</option>
+                    <option value="industriel">Nettoyage industriel</option>
+                    <option value="particuliers">Particuliers</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Votre message *</label>
+                <textarea id="message" name="message" rows="5" placeholder="Décrivez votre besoin : type de local, surface, fréquence souhaitée..." required></textarea>
+              </div>
+              <button type="submit" class="button is-primary is-full">Envoyer ma demande de devis</button>
+              <p class="form-note" id="form-feedback" role="status"></p>
+            </form>
           </div>
         </div>
-
-        <form class="contact-form" id="contact-form" novalidate>
-          <h2>Envoyez-nous un message</h2>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="name">Nom complet *</label>
-              <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-              <label for="phone">Téléphone *</label>
-              <input type="tel" id="phone" name="phone" required>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="email">Email *</label>
-              <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-              <label for="service">Type de service</label>
-              <select id="service" name="service">
-                <option value="">Sélectionnez...</option>
-                <option value="solaire">Teint Solaire</option>
-                <option value="miroir">Teint Effet Miroir</option>
-                <option value="anti-effraction">Teint Anti-Effraction</option>
-                <option value="sable">Teint Sablé</option>
-                <option value="autre">Autre / Je ne sais pas encore</option>
-              </select>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="message">Votre projet *</label>
-            <textarea id="message" name="message" rows="5" required placeholder="Décrivez votre projet : nombre de fenêtres, pièces concernées, besoins particuliers..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary btn-full">Envoyer ma demande</button>
-          <p class="form-note" id="form-feedback" role="status"></p>
-        </form>
       </div>
     </section>
 
-    <section class="section faq alt">
-      <div class="container">
-        <div class="section-head center">
-          <p class="eyebrow">Questions fréquentes</p>
-          <h2>Vous vous posez des questions ?</h2>
-        </div>
-        <div class="faq-list">
-          <details class="faq-item"><summary>Combien coûte le teintage d'une fenêtre ?</summary><p>Le prix dépend du type de film, de la surface à couvrir et du nombre de fenêtres. Nous établissons un devis gratuit et personnalisé après avoir évalué votre projet.</p></details>
-          <details class="faq-item"><summary>Combien de temps dure l'installation ?</summary><p>Pour une maison standard, comptez généralement une demi-journée à une journée complète selon le nombre de fenêtres.</p></details>
-          <details class="faq-item"><summary>Le film abîme-t-il le double vitrage ?</summary><p>Non, nos films sont conçus pour être compatibles avec le double vitrage et posés par des techniciens certifiés.</p></details>
-          <details class="faq-item"><summary>Proposez-vous une garantie ?</summary><p>Oui, tous nos films sont garantis jusqu'à 10 ans selon le type choisi, avec un engagement satisfait ou refait.</p></details>
+    <section class="padding-section-large section_alternate">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="section_head is-center margin-bottom-large align-center">
+            <p class="eyebrow">Questions fréquentes</p>
+            <h2>Avant de nous contacter</h2>
+          </div>
+          <div class="faq-list align-center">
+            <details class="faq-item">
+              <summary>Sous combien de temps recevrai-je mon devis ?</summary>
+              <p>En général sous 24h ouvrées après réception de votre demande, parfois après une courte visite sur place pour les grands sites.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Le devis est-il vraiment gratuit et sans engagement ?</summary>
+              <p>Oui, l'établissement du devis est entièrement gratuit et ne vous engage à rien.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Intervenez-vous en dehors des heures de bureau ?</summary>
+              <p>Oui, nous pouvons planifier nos interventions tôt le matin, en soirée ou le week-end selon vos contraintes.</p>
+            </details>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-col">
-        <a href="index.html" class="logo">Solari Vitre</a>
-        <p>Spécialiste du teintage de vitres résidentielles. Confort, protection et esthétique pour votre maison.</p>
-        <div class="socials" aria-hidden="true">
-          <a href="#">f</a><a href="#">in</a><a href="#">ig</a>
+  <footer class="footer_component">
+    <div class="padding-global">
+      <div class="container-large">
+        <div class="footer_top-wrapper">
+          <div class="footer_column">
+            <a href="index.html" class="navbar_logo-link">
+              <span class="navbar_logo-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3.2v4.6c0 4.7-3 8.6-7 10.2-4-1.6-7-5.5-7-10.2V6.2z"/><path d="M9 12.2l2 2 4-4.4"/></svg></span>
+              <span class="navbar_logo-word">M&amp;T<em>Clean</em></span>
+            </a>
+            <p class="margin-bottom-small">Entreprise de nettoyage professionnel et résidentiel, active à Bruxelles et dans toute la Belgique.</p>
+            <div class="footer_socials" aria-hidden="true">
+              <a href="#">f</a><a href="#">in</a><a href="#">ig</a>
+            </div>
+          </div>
+          <div class="footer_column">
+            <h4>Liens rapides</h4>
+            <ul>
+              <li><a href="services.html">Nos services</a></li>
+              <li><a href="realisations.html">Réalisations</a></li>
+              <li><a href="a-propos.html">À propos</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer_column">
+            <h4>Nos services</h4>
+            <ul>
+              <li>Nettoyage de bureaux</li>
+              <li>Nettoyage de vitres</li>
+              <li>Copropriétés &amp; communs</li>
+              <li>Fin de chantier</li>
+              <li>Nettoyage industriel</li>
+              <li>Particuliers</li>
+            </ul>
+          </div>
+          <div class="footer_column">
+            <h4>Contact</h4>
+            <ul>
+              <li>📍 Rue de la Loi 123, 1000 Bruxelles</li>
+              <li>📞 <a href="tel:+3221234567">+32 2 123 45 67</a></li>
+              <li>✉️ <a href="mailto:info@mtclean.be">info@mtclean.be</a></li>
+              <li>🕒 Lun–Ven 7h–19h, Sam 8h–12h</li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="footer-col">
-        <h4>Liens rapides</h4>
-        <ul>
-          <li><a href="services.html">Nos services</a></li>
-          <li><a href="galerie.html">Galerie</a></li>
-          <li><a href="a-propos.html">À propos</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Nos services</h4>
-        <ul>
-          <li>Teint Solaire</li>
-          <li>Teint Effet Miroir</li>
-          <li>Teint Anti-Effraction</li>
-          <li>Teint Sablé</li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <ul>
-          <li>📍 12 rue des Vitriers, 69000 Lyon</li>
-          <li>📞 <a href="tel:+33123456789">01 23 45 67 89</a></li>
-          <li>✉️ <a href="mailto:contact@solarivitre.fr">contact@solarivitre.fr</a></li>
-          <li>🕒 Lun–Ven 8h–18h, Sam 9h–13h</li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="container">
-        <p>&copy; 2026 Solari Vitre. Tous droits réservés. <span class="footer-note">Site exemple — personnalisable selon vos besoins.</span></p>
+        <div class="footer_bottom-wrapper">
+          <p>&copy; 2026 M&amp;T Clean SRL. Tous droits réservés. TVA BE 0123.456.789.</p>
+          <p>Site exemple — personnalisable selon vos besoins.</p>
+        </div>
       </div>
     </div>
   </footer>
