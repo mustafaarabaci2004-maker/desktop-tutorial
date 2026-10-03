@@ -222,6 +222,7 @@ img, svg { max-width: 100%; display: block; }
   color: var(--color--primary-900);
 }
 .navbar_logo-link:hover { color: var(--color--primary-900); }
+.navbar_logo-image { height: 34px; width: auto; display: block; }
 .navbar_logo-icon { display: flex; color: var(--color--accent-500); flex-shrink: 0; }
 .navbar_logo-word {
   display: flex;
